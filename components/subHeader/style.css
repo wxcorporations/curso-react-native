@@ -1,0 +1,12 @@
+.subHeader {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    min-height: 120px;
+}
+
+.subHeader__title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    color: white;
+}
