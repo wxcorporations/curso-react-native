@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+body {
+    background: rgb(217, 255, 255);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 50%;
+    height: 60vh;
+    padding: 10px;
+}
+
+header img,
+header nav {
+    height: 100px;
+}
+
+.logo {
+    width: 130px;
+    height: 35px;
+}
