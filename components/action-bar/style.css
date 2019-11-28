@@ -41,3 +41,9 @@
     color: white;
     background-color: #22c1bd;
 }
+
+@media (orientation: landscape) { 
+    .action-bar {
+        height: 60px;
+    }
+}

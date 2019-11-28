@@ -21,3 +21,13 @@
         display: inline-block;
         margin-right: 35px;
     }
+
+    @media (orientation: landscape) {
+        .header {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            align-items: center;
+            max-height: 50px;
+        }
+    }

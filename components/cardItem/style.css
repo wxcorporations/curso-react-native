@@ -60,3 +60,9 @@
 .cardItem__icon > .fa-plus:hover {
     color: rgb(114, 241, 114);
 }
+
+@media (orientation: landscape) { 
+    .cardItem:last-of-type {
+        margin-bottom: 80px;
+    }
+}

@@ -7,3 +7,10 @@
     height: 70vh;
     overflow: auto;
 }
+
+@media (orientation: landscape) {
+    .cardList { 
+        border-radius: 0;
+    }
+
+}
