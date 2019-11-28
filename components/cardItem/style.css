@@ -7,10 +7,15 @@
     margin-top: 30px;
 }
 
+*{
+    /* outline: 1px solid; */
+}
+
 .cardItem {
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
+    justify-content: space-between;
     width: 85vw;
     height: 65px;
     min-height: 65px;
@@ -23,6 +28,12 @@
 
 .cardItem:hover {
     transform: scale(1.1);
+}
+
+.cardItem__group {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center ;
 }
 
 .cardItem__img {
@@ -52,7 +63,7 @@
 }
 
 .cardItem__icon > .fa-plus {
-    margin-right: 20px;
+    margin-right: 25px;
     color: rgb(236, 236, 236);
     transition: 0.5s;
 }
@@ -65,4 +76,5 @@
     .cardItem:last-of-type {
         margin-bottom: 80px;
     }
+    
 }
