@@ -4,6 +4,6 @@
     align-items: center;
     background-color: var(--bg__secundary);
     border-top-left-radius: 25%;
-    height: 60vh;
+    height: 70vh;
     overflow: auto;
 }

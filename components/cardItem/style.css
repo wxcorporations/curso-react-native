@@ -1,5 +1,6 @@
 :root {
-    --sombra: 1px 1px 5px rgba(0, 0, 0, 0.185);
+    --sombra: 1px 1px 5px rgba(0, 0, 0, 0.285);
+    --font-title: #565656;
 }
 
 .cardItem:first-of-type {
@@ -20,6 +21,10 @@
     box-shadow: var(--sombra)
 }
 
+.cardItem:hover {
+    transform: scale(1.1);
+}
+
 .cardItem__img {
     width: 50px;
     height: 50px;
@@ -38,6 +43,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     font-weight: 600;
+    color: var(--font-title);
 }
 
 .cardItem__infor-price {
@@ -45,11 +51,12 @@
     color: rgb(116, 116, 116);
 }
 
-.cardItem__icon>i {
+.cardItem__icon > .fa-plus {
+    margin-right: 20px;
     color: rgb(236, 236, 236);
-    transition: 1;
+    transition: 0.5s;
 }
 
-.cardItem__icon>i:hover {
+.cardItem__icon > .fa-plus:hover {
     color: rgb(114, 241, 114);
 }
